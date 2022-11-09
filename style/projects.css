@@ -1,10 +1,10 @@
 .projects {
-    background-image: url(https://image.winudf.com/v2/image/Y29tLlN1cGVyVUEuYXBwMDA0Nl9zY3JlZW5zaG90c182XzZiZTBhZTQ5/screen-6.jpg?fakeurl=1&type=.webp);
+    background-image: url(../images/projectbackground.webp);
     color: white;
 }
 
 .projects__background--filter {
-    backdrop-filter: brightness(0.15);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
 
 }

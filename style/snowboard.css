@@ -20,7 +20,7 @@
 
 .snowboard__text{
     width: 40%;
-    backdrop-filter: brightness(0.3);
+    background-color: rgba(0, 0, 0, 0.872);
     padding: 3rem;
     display: flex;
     align-items: center;

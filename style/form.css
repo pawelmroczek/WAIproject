@@ -1,7 +1,7 @@
 .form__background {
   width: 80%;
   color: whitesmoke;
-  backdrop-filter: brightness(0.2);
+  background-color: rgba(0, 0, 0, 0.85);
   padding: 3rem;
   margin-top: 25px;
   z-index: 0;
@@ -40,7 +40,7 @@ textarea:focus{
 }
 
 .form__input {
-  background: none;
+  background: black;
  color: whitesmoke;
  font-family: 'Josefin Sans', sans-serif;
  font-size: 1.2rem;
@@ -94,7 +94,6 @@ ul{
   .form__background {
     width: 90%;
     color: whitesmoke;
-    backdrop-filter: brightness(0.2);
     padding: 1rem;
   }
   
