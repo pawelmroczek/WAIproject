@@ -1,0 +1,65 @@
+.header__background{
+    background-image:url(https://w.wallha.com/ws/13/aR08gCPW.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    border-bottom: solid black 1px;
+    top:0;
+    width: 100%;
+}
+
+.header__background--hobby{
+    background-image: url(../images/DSC07975.JPG);
+}
+
+.header__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35rem;
+    margin: 0 auto;
+}
+
+.header{
+    /* backdrop-filter: blur(4px); */
+    backdrop-filter: brightness(0.30);
+    padding: 5rem;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+    width: 70%;    
+    position: relative;
+    z-index: 0;
+}
+
+.header__header{
+    font-weight: 300;
+}
+
+.header__welcome{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.header__paraghraph{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    
+}
+
+.header__div--hobby{
+    width: 50%;
+}
+
+@media(max-width: 575px){
+    .header{
+        padding: 3rem;
+    }
+
+}

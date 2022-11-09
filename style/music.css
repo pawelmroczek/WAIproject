@@ -1,0 +1,28 @@
+.music{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.music__headerBackground{
+    background-image: url(../images/il_fullxfull.2402753598_kybb.webp);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.music__header{
+    padding: 25px 10px 0px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.music__paraghraph{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+

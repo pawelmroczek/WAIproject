@@ -1,0 +1,92 @@
+.projects {
+    background-image: url(https://image.winudf.com/v2/image/Y29tLlN1cGVyVUEuYXBwMDA0Nl9zY3JlZW5zaG90c182XzZiZTBhZTQ5/screen-6.jpg?fakeurl=1&type=.webp);
+    color: white;
+}
+
+.projects__background--filter {
+    backdrop-filter: brightness(0.15);
+    display: flex;
+
+}
+
+.projects__photos {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.projects__text {
+    width: 50%;
+    padding: 3rem;
+    line-height: 1.7;
+}
+
+.projects__header {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.projects__header--italic {
+    font-style: italic;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.projects__link {
+    border: solid white 1px;
+    padding: 7px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    transition: background-color 500ms ease-in-out;
+    transition: font-weight 500ms ease-in-out;
+}
+
+.projects__link:hover {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+
+.projects__linkDiv{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+@media(max-width: 767px) {
+    .projects__background--filter {
+        flex-direction: column-reverse;
+    }
+
+    
+
+    .projects__photos {
+        width: 100%;
+    }
+
+    .projects__text {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width:1199px) {
+    .projects__header{
+        font-size: 3rem;
+    }
+
+    .projects__header--italic{
+        font-size: 3rem;
+    }
+
+    .projects__text{
+        font-size: 1.3rem;
+    }
+}

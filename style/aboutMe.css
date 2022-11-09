@@ -1,0 +1,93 @@
+.aboutMe{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+
+}
+
+.aboutMe__text{
+    width: 50%;
+    padding: 3rem;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 1rem
+}
+
+.aboutMe__photos{
+    width: 50%;
+   background-image: url(../images/800px-Arctic_Ice_2.jpg);
+   background-position: center;
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.aboutMe__paragraph{
+    width: 70%;
+    line-height: 1.7;
+}
+
+.aboutMe__header{
+    font-weight: 200;
+    font-size: 2rem
+}
+
+
+.aboutMe__header--italic{
+    font-style: italic;
+    margin-left: 0.4rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.aboutMe__link{
+    border: solid white 1px;
+    padding: 7px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    transition: background-color 500ms ease-in-out;
+    transition: font-weight 500ms ease-in-out;
+}
+
+.aboutMe__link:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.aboutMe__linkDiv{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+@media(max-width: 767px){
+    .aboutMe{
+        flex-direction: column;
+    }
+    .aboutMe__text{
+        width: 100%;
+    }
+    .aboutMe__photos{
+        width: 100%;
+    }
+    .aboutMe__paragraph{width: 100%;}
+}
+
+@media(min-width:1199px){
+    .aboutMe__image{
+        width: 65%;
+    }
+    .aboutMe__header{
+        font-size: 3.5rem;
+    }
+
+    .aboutMe__header--italic{
+        font-size: 3rem;
+    }
+    .aboutMe__text{
+        font-size: 1.3rem;
+    }
+}

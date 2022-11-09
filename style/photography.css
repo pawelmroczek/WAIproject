@@ -1,0 +1,79 @@
+.photography{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+
+}
+
+.photography__text{
+    width: 50%;
+    padding: 3rem;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: 1rem
+}
+
+.photography__photos{
+    width: 50%;
+   background-image: url(../images/A2AF8B4E-F495-4C56-85DD-5D604989BF59_1_201_a.jpeg);
+   background-position: center;
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.photography__header{
+    font-weight: 200;
+    font-size: 2rem
+}
+
+.photography__paragraph{
+    width: 70%;
+    line-height: 1.7;
+}
+
+.photography__button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-weight: 100;
+    padding: 7px;
+    font-size: 1.2rem;
+    transition: background-color 500ms ease-in-out;
+    transition: font-weight 500ms ease-in-out;
+}
+
+.photography__button:hover{
+    color:black;
+    background-color: white;
+    font-weight: 700;
+}
+
+@media(max-width: 767px){
+    .photography{
+        flex-direction: column;
+    }
+    .photography__text{
+        width: 100%;
+    }
+    .photography__photos{
+        width: 100%;
+    }
+    .photography__paragraph{width: 100%;}
+}
+
+
+
+
+@media(min-width:1199px){
+    .photography__image{
+        width: 65%;
+    }
+    .photography__header{
+        font-size: 3.5rem;
+    }    
+    .photography__text{
+        font-size: 1.3rem;
+    }
+}

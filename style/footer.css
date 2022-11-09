@@ -1,0 +1,47 @@
+.footer{
+    width: 100%;
+    backdrop-filter: brightness(0.1);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-top: 2px solid white;
+}
+
+.footer__link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__contactDiv{
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+}
+.footer__formLink{
+    border: solid white 1px;
+    padding: 7px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    transition: background-color 500ms ease-in-out;
+    transition: font-weight 500ms ease-in-out;
+    justify-self: center;
+}
+.footer__formLink:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.footer__icon{
+    width: 30px;
+}
+
+.footer__formDiv{
+    margin: 20px;
+}

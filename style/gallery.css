@@ -1,0 +1,75 @@
+
+
+
+.gallery{
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black 1px;
+}
+
+.gallery__div{
+    width: 20%;
+}
+
+.gallery__image{
+    width: 100%;
+    cursor: zoom-in;
+    height:100%;
+}
+
+.gallery__button{
+    visibility: hidden;
+}
+
+.fullscreen{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: zoom-out;
+    z-index: 3;
+}
+
+.fullscreen1{
+    background-image: url(../images/gallery/IMG_5313.PNG);
+}
+
+.fullscreen0{
+    background-image: url(../images/gallery/IMG_5599.JPG);
+}
+
+.fullscreen2{
+    background-image: url(../images/gallery/B884-FD3-B-FDE1-4152-81-AE-FF6-A401-D3-BC3.jpg);
+}
+
+.fullscreen4{
+    background-image: url(../images/gallery/IMG_5314.PNG);
+}
+
+.fullscreen3{
+    background-image: url(../images/gallery/09-BE0546-A491-44-AF-A0-D1-AC6-CB061-C479.jpg);
+}
+
+@media(max-width: 767px){
+    .gallery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery__div{
+        width: 80%;
+        
+    }
+
+    .fullscreen{
+        
+        width: 95%;
+        height: 95%;
+       
+    }
+}

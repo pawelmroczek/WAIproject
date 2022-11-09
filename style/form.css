@@ -1,0 +1,120 @@
+.form__background {
+  width: 80%;
+  color: whitesmoke;
+  backdrop-filter: brightness(0.2);
+  padding: 3rem;
+  margin-top: 25px;
+  z-index: -2;
+}
+legend{
+    font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.form__textarea{
+  margin-top: 100px;
+  width: 100%;
+}
+
+form {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+textarea{
+  background: none;
+  margin: 5px;
+  color:white
+}
+
+textarea:focus{
+  background: none;
+  color: white;
+  font-weight: 300;
+}
+
+.form__input {
+  background: none;
+ color: whitesmoke;
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 1.2rem;
+ font-weight: 300;
+ border: solid white 1px;
+ margin: 10px;
+ padding: 7px;
+ border-radius: 5px;
+}
+
+.form__input--data{
+    background-color: rgba(249, 249, 249, 0.643);
+}
+
+ul{
+    list-style: none;
+}
+
+.form__buttonsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.form__button{
+    background: none;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 7px;
+    border: solid white 1px;
+    font-size: 1.3rem;
+    transition: background-color 200ms;
+    transition: font-weight 500ms ease-in-out;
+    font-weight: 300;
+}
+
+.form__button:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+}
+
+
+@media(max-width: 927px){
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__background {
+    width: 90%;
+    color: whitesmoke;
+    backdrop-filter: brightness(0.2);
+    padding: 1rem;
+  }
+  
+  .form__textarea{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .form__button{
+    font-size: 1rem;
+    margin: 10px;
+    padding: 5px;
+    height: 50px;
+  }
+
+  .form{
+    flex-direction: column;
+  }
+
+  legend{
+    font-size: 1rem;
+}
+}
