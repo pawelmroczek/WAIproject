@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona główna</title>
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/navigation.css" rel="stylesheet" />
+    <link href="style/header.css" rel="stylesheet" />
+    <link href="style/aboutMe.css" rel="stylesheet" />
+    <link href="style/projects.css" rel="stylesheet" />
+    <link href="style/footer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/percent-preloader.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="scripts/percent-preloader.min.js"></script>
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="inner">
+        <span class="percentage"><span id="percentage">15</span>%</span>
+      </div>
+      <div class="loader-progress" id="loader-progress"></div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="active nav__listIteam">
+          <a href="index.html">STRONA GŁÓWNA</a>
+        </li>
+        <li class="nav__listIteam">
+          <a href="aboutMe.html">MOJE HOBBY</a>
+          <ul class="nav__drop">
+            <li class="nav__drop--listIteam">
+              <a href="aboutMe.html#photography">FOTOGRAFIA</a>
+            </li>
+            <li class="nav__drop--listIteam">SNOWBOARD</li>
+          </ul>
+        </li>
+        <li class="nav__listIteam"><a href="contact.html">KONTAKT</a></li>
+      </ul>
+    </nav>
+    <div class="header__background">
+      <div class="header__div">
+        <header class="header">
+          <h1 class="header__header">
+            <span class="header__welcome">WITAJ</span> NA MOJEJ STRONIE!
+          </h1>
+          <p class="header__paraghraph">Miłego przeglądania!</p>
+        </header>
+      </div>
+    </div>
+    <section class="aboutMe">
+      <div class="aboutMe__text">
+        <h2 class="aboutMe__header">Mam na imię Paweł</h2>
+        <span class="aboutMe__header--italic">A to kilka słów o mnie</span>
+        <p class="aboutMe__paragraph">
+          Mam 20 lat i pochodzę z Bydgoszczy, gdzie skończyłem szkołe średnią. W
+          chwili obecnej studiuje informatykę na Politechnice Gdańskiej.
+        </p>
+        <br />
+        <p class="aboutMe__paragraph">
+          Mam wiele zainteresowań, bo uważam, że
+          <em>w życiu należy spróbować wszystkiego.</em>Jednak hobby, które mnie
+          nie opuściło i towarzyszy mi w złych i dobrych chwilach to fotografia
+          oraz muzyka. Interesuje się również nowymi technologiami i wszystkim
+          związanym z informatyką czy elektroniką
+        </p>
+        <div class="aboutMe__linkDiv">
+          <a class="aboutMe__link" href="aboutMe.html">PRZECZYTAJ WIECEJ</a>
+        </div>
+      </div>
+      <div class="aboutMe__photos">
+        <img class="aboutMe__image" src="images/pic1.jpg" width="80%" />
+      </div>
+    </section>
+    <section class="projects">
+      <div class="projects__background--filter">
+        <div class="projects__photos">
+          <img src="images/me.jpg" width="60%" />
+        </div>
+        <div class="projects__text">
+          <h2 class="projects__header">Zaciekawiony stylem?</h2>
+          <span class="projects__header--italic">
+            Zobacz resztę moich projektów</span
+          >
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+            minus cupiditate provident velit vitae unde, nobis repudiandae
+            eveniet placeat quia id beatae autem totam nulla iste, porro
+            quibusdam, nemo incidunt.
+          </p>
+          <div class="projects__linkDiv">
+            <a class="projects__link" href="projects.html"
+              >DOWIEDZ SIĘ WIECEJ</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <h3>KONTAKT</h3>
+      <div class="footer__contactDiv">
+        <a class="footer__link" href="tel:123 123 123"
+          ><img class="footer__icon" src="images/icons8-phone-50.png" />123 123
+          123</a
+        >
+
+        <a class="footer__link" href="mailto: pawel.mroczekpl@gmail.com"
+          ><img
+            class="footer__icon"
+            src="images/icons8-circled-envelope-50.png"
+          />pawel.mroczekpl@gmail.com</a
+        >
+      </div>
+      <div class="footer__formDiv">
+        <a href="contact.html" class="footer__formLink">WYPEŁNIJ FORMUALRZ</a>
+      </div>
+
+      ©Copyright 2022, Mroczek Paweł grupa 8
+    </footer>
+  </body>
+</html>
